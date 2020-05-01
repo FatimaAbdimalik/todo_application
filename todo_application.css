@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+}
+
+.heading {
+  color: purple;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.color {
+  color: plum;
+  font-family: fantasy;
+}
+
+.colour {
+  color: blueviolet;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media only screen and (max-width: 769px) {
+  body {
+    background-color: lightpink;
+  }
+  /* .card {
+    max-width: 25rem;
+  } */
+  .heading {
+    font-size: x-large;
+  }
+  .color {
+    font-size: large;
+  }
+  .colour {
+    font-size: large;
+  }
+}

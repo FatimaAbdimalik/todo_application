@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="todo_application.css" rel="stylesheet" type="text/css" />
+    <title>To do</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="heading">To-Do Tasks</h1>
+        </div>
+      </div>
+      <div>
+        <h2 class="color">Add a task here</h2>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-light bg-light">
+            <form class="form-inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Add your task here"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                +
+              </button>
+            </form>
+          </nav>
+        </div>
+        <!-- <div class="col-12">
+          <hr />
+        </div> -->
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+       <h3 class="colour">You have six incomplete tasks!</h3>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <input type="text" name="task" value="task 1" id="task" />
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-info">Done</button>
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+          <div class="col-12">
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"></div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <input type="text" name="task" value="task 2" id="task" />
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-info">Done</button>
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+          <div class="col-12">
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <input type="text" name="task" value="task 3" id="task" />
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-info">Done</button>
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+          <div class="col-12">
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <input type="text" name="task" value="task 4" id="task" />
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-info">Done</button>
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+          <div class="col-12">
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <input type="text" name="task" value="task 5" id="task" />
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-info">Done</button>
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+          <div class="col-12">
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <input type="text" name="task" value="task 6" id="task" />
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-info">Done</button>
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+            <div class="col-12"> 
+            <hr />
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6">
+         <h3 class="colour">Whooraay, you've compeleted three tasks!</h3>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-12 col-sm-6">
+            <!-- <input type="text" name="task" value="task 1" id="task" /> -->
+            <p><del>This task is completed</del></p>
+          </div>
+          <div class="col-12 col-sm-1">
+            <!-- <button type="button" class="btn btn-info">Done</button> -->
+          </div>
+          <div class="col-12 col-sm-1">
+            <button type="button" class="btn btn-danger">Delete</button>
+          </div>
+            <div class="col-12"> <hr/></div> 
+        </div>
+          <div class="row justify-content-around">
+            <div class="col-12 col-sm-6">
+              <p><del>This task is completed</del></p>
+            </div>
+            <div class="col-12 col-sm-1">
+              <!-- <button type="button" class="btn btn-info">Done</button> -->
+            </div>
+            <div class="col-12 col-sm-1">
+              <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+            <div class="col-12">
+              <hr />
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-12 col-sm-6">
+              <p><del>This task is completed</del></p>
+            </div>
+            <div class="col-12 col-sm-1">
+              <!-- <button type="button" class="btn btn-info">Done</button> -->
+            </div>
+            <div class="col-12 col-sm-1">
+              <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+            <div class="col-12">
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
